@@ -1,0 +1,25 @@
+.sneaker {
+  min-height: 35vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__img {
+    width: 20rem;
+    z-index: 2;
+    transition: all 750ms ease-out;
+  }
+
+  &__circle {
+    width: 15rem;
+    height: 15rem;
+    background: linear-gradient(
+      to right,
+      rgba(245, 70, 66, 0.75),
+      rgba(8, 83, 156, 0.75)
+    );
+    position: absolute;
+    border-radius: 50%;
+    z-index: 1;
+  }
+}

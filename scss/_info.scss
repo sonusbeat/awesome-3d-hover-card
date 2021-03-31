@@ -1,0 +1,18 @@
+.info {
+  &__title {
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+    color: var(--gray);
+    transition: all 750ms ease-out;
+  }
+
+  &__subtitle {
+    font-size: 1.3rem;
+    padding: 2rem 0;
+    color: var(--gray);
+    font-weight: 300;
+    text-transform: uppercase;
+    transition: all 750ms ease-out;
+  }
+}

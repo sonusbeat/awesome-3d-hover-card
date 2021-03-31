@@ -1,0 +1,20 @@
+.sizes {
+  display: flex;
+  justify-content: space-between;
+  transition: all 750ms ease-out;
+
+  &__btn {
+    padding: 0.5rem 2rem;
+    background: none;
+    border: none;
+    box-shadow: 0 5px 10px rgba(#000, 0.2);
+    border-radius: 30px;
+    font-weight: 700;
+    color: var(--gray);
+
+    &--active {
+      background: var(--gray);
+      color: var(--white);
+    }
+  }
+}

@@ -1,0 +1,16 @@
+.purchase {
+  margin-top: 5rem;
+  transition: all 750ms ease-out;
+
+  &__btn {
+    width: 100%;
+    padding: 1rem 0;
+    background: var(--red);
+    border: none;
+    color: var(--white);
+    cursor: pointer;
+    border-radius: 30px;
+    font-weight: 700;
+    transition: all 750ms ease-in-out;
+  }
+}
